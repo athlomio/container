@@ -1,0 +1,40 @@
+{
+    "name": "athlomio/container",
+    "description": "A lightweight, high-performance PHP DI container built for FrankenPHP's worker mode.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Athlomio",
+            "email": "athlomio+contact@gmail.com",
+            "homepage": "https://github.com/athlomio",
+            "role": "Owner"
+        },
+        {
+            "name": "Ugo Brocard",
+            "email": "ugo.brocard.official+contact@gmail.com",
+            "homepage": "https://github.com/ugo-brocard",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "athlomio+contact@gmail.com"
+    },
+    "keywords": [
+        "php8",
+        "container",
+        "di"
+    ],
+    "homepage": "https://github.com/athlomio/container",
+
+
+    "autoload": {
+        "psr-4": {
+            "Athlomio\\Container\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.4"
+    }
+}

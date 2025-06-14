@@ -30,7 +30,7 @@
 
     "autoload": {
         "psr-4": {
-            "Athlomio\\Container\\": "src/"
+            "Archer\\Container\\": "src/"
         }
     },
     "minimum-stability": "stable",
